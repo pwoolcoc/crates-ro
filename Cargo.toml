@@ -1,0 +1,32 @@
+[package]
+authors = ["Paul Woolcock <paul@woolcock.us>"]
+name = "text-crates-io"
+version = "0.1.0"
+
+[[bin]]
+name = "generator"
+path = "src/bin/generator.rs"
+
+[[bin]]
+name = "webapp"
+path = "src/bin/webapp.rs"
+
+[dependencies]
+error-chain = "0.10.0"
+rayon = "0.7.1"
+reqwest = "0.6.2"
+rocket = "0.2.8"
+rocket_codegen = "0.2.8"
+serde = "1.0.8"
+serde_derive = "1.0.8"
+serde_json = "1.0.2"
+tantivy = { git = "https://github.com/tantivy-search/tantivy" }
+walkdir = "1.0.7"
+
+[dependencies.rocket_contrib]
+features = ["tera_templates"]
+version = "0.2.8"
+
+[lib]
+name = "text_crates_io"
+path = "src/lib.rs"

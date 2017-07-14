@@ -1,0 +1,15 @@
+{"name":"memcache","vers":"0.0.1","deps":[],"cksum":"af4836b799ed515ab69d1036fc300d5496c0d3203186ba8ae72f9df3289bebfd","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.2","deps":[],"cksum":"2bc980c43ab5430358fec9b558f8f3d511da9642bb13f49071c1c040dfa8f5dd","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.3","deps":[],"cksum":"d495578260c3ae14593e39bfe0bdd57631fc30a86cc55d01c6042bf34fd40aa2","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.4","deps":[],"cksum":"f74aeb4c65422e164ae47ad33eee5b3d04ab4957f9d87a598bd3857f35b979b4","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.5","deps":[],"cksum":"330023dd8ac8e931777c84f35a8e68c534f624d3d70b20994149fab03518571b","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.6","deps":[],"cksum":"40d976711e7d8fb12cb8e350f1c130dbeebe1e3da9e62d63387dccc468b3cdec","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.7","deps":[{"name":"libc","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"2e9fe6ab8269e767ea251557e999ead1a5ca4dbfc1ef4bc7b686f88f783c8901","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.8","deps":[{"name":"libc","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"35f2c1badab6e9f7a99ecd474be7a3e565066d474b5f7991be6133f6e4e8bf6e","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.9","deps":[{"name":"libc","req":"*","features":[],"optional":false,"default_features":true,"target":null,"kind":"normal"}],"cksum":"90edeba5a2821a47cd55cdd0fd56b2ff029b3cbe6d9c765e7ec2135da2ddebf1","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.10","deps":[],"cksum":"80729a73830f5271e23304b4b44d027dbcaa35ddc853fb9afd3a44027fe600a9","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.11","deps":[],"cksum":"0819c38b168172b23489362862260c9422115a747050af55265b45dce31752e7","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.12","deps":[],"cksum":"2fd966ab13c1e7937d007b903d609e84f74b3a674ec722c1a758a77925eac185","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.13","deps":[],"cksum":"160a1fbbe192cec4dfba15c05aa4b3c725d001bd052b193d8e276f97a4ec4fde","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.14","deps":[],"cksum":"4ea73494d62dce43d94fdfbffed708d9eaf132e0fef8848f2a575dbb7333d132","features":{},"yanked":false}
+{"name":"memcache","vers":"0.0.15","deps":[],"cksum":"0f7a4342eaa3f1f1f32ec8c16ba4fb8bb81f9e7264c2eab1fca815988d81756c","features":{},"yanked":false}

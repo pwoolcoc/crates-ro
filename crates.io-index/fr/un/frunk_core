@@ -1,0 +1,16 @@
+{"name":"frunk_core","vers":"0.0.1","deps":[],"cksum":"9428806916ec262391dbd0d840f8b6d9a03d08b8bbeddfb90eb328610c7e130f","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.2","deps":[],"cksum":"f966214100df787cd7ad8c4b37e74d943ef2785db16bce4f704e6a809635e078","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.3","deps":[],"cksum":"ba506e015efde0415b5b8d24ff3b7b0ee9f7862ba7a7ba70052ab2876d2c841b","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.4","deps":[],"cksum":"0f2fc6d3c3fbb52fa936bbbe76ecda7e2ba6c9959f3e5dd4dbae3b93b93522ed","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.5","deps":[],"cksum":"388d5fbd27363916d633b9765f34d804e2bc2d4db4c5c69b210ae51d35cca0b0","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.6","deps":[],"cksum":"b70f3427c87fa77d5844dc31afaf25ff491385b40a5c2310b8f5ac4ab705b81f","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.7","deps":[],"cksum":"f8f4e74cd28514421f9f87af8563ffe4959227c908469ae027c09afbc4630752","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.8","deps":[],"cksum":"b02758792ef2a5c397f89eb64431507169078d5bd9ee7a84be47517bdc1a1d8f","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.9","deps":[],"cksum":"dd60b691761a2e927565cf2d7378ec3b8aeb4d078142948a3a4be38557face87","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.10","deps":[{"name":"frunk_derives","req":"^0.0.10","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"e7513b7236db8bcdce46f3589cf47c902ca6c52ec5f22410e9dd9979088ba283","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.11","deps":[{"name":"frunk_derives","req":"^0.0.11","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"cd6072440020a11d45de0d90b9262e5c3ef97a15715b6967882929f268e0ae61","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.12","deps":[{"name":"frunk_derives","req":"^0.0.12","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"ab15380c68a20684a666dc155b48ec7d2ad29873369f74195874576117baba56","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.13","deps":[{"name":"frunk_derives","req":"^0.0.13","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"2405ccf8810d6dcbe0f4757b5d02932fa438fefcf31ecfa0ed8d35684b581510","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.14","deps":[{"name":"frunk_derives","req":"^0.0.14","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"ab3b7fc4c57e6061ad81ad99550c706a8edd66c6d7519f7ce4745b04eb9d02d8","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.15","deps":[{"name":"frunk_derives","req":"^0.0.15","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"4a31ee67d83bb03f1aa79655bb94a4757717885f17d23622f3c505225032d44f","features":{},"yanked":false}
+{"name":"frunk_core","vers":"0.0.16","deps":[{"name":"frunk_derives","req":"^0.0.16","features":[],"optional":false,"default_features":true,"target":null,"kind":"dev"}],"cksum":"c56011357409accea04a8383283588ad42be1fb9ecfb72f0f3750bb89a831fae","features":{},"yanked":false}

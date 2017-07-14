@@ -1,0 +1,16 @@
+{"name":"wasmparser","vers":"0.1.0","deps":[],"cksum":"d20d0f9f71cf8c15ce2f1996e224aca8e70632bb05fa6192a349fca9fdecb891","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.1.1","deps":[],"cksum":"0155ba994446fe61614a6342fb74784207e2a3259ed83f51cf256c07c42765d7","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.1.2","deps":[],"cksum":"cbec587fe2897d5a731995dc075f8ef7b3160646bee5175642fdc7d7c6e2fc46","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.2.0","deps":[],"cksum":"54cc620e02d114b70fbaf2166543565e07c15ddeb9c7bd74dadd6655cca665f2","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.2.1","deps":[],"cksum":"7e789d1ad7f2953d629ba3ccb00bff91b6c2c92130fdd6e7518d7f929c6c5b4b","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.3.0","deps":[],"cksum":"4fd9ea8137277c8b40d92c3d499b4dda9ebed4438eab8b1e1a29bb3c1284eb8d","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.4.0","deps":[],"cksum":"e57965488997a85e3bc8c69b1bf0a37b708af2e3487d46fe43d80c092537d58e","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.4.3","deps":[],"cksum":"7e22d9d4c9fb841f5d12f5337a17f1946de3687b4353c03654b01e62e94f3896","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.4.4","deps":[],"cksum":"6091af2cfb90a6be68d181a644320910b095e54764ed551d6550c6f82ecc2734","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.4.5","deps":[],"cksum":"50fd3a85d7e53633cf9f431bbb424b2518d3132999a7247d5244f16cfa226a96","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.4.6","deps":[],"cksum":"53d7924779ad269fb03f5a84cc0c7c31d38cefa749ecb53cb81219324013008e","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.4.7","deps":[],"cksum":"524be669aacc98b770c498b0254038e8801fad3c3b6bb680f1724634e93123f3","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.5.0","deps":[],"cksum":"5f3e6db703d417369b2c7d58540be62f379764b2adb62a35dac28ab132ce2f98","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.5.1","deps":[],"cksum":"c6220193021334a5a1c6bedddf6a990b1e0b0872fec8f4f0183ebdbc0253053b","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.5.2","deps":[],"cksum":"5cf2f1d0daba34d6b8864ab2eae1377a689e7db86a682c7e0b6695d61e61c595","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.5.3","deps":[],"cksum":"f675befee81619b3cd0ceec78f50e05541ff4fdd7da7f184fb11ea6577c8caa0","features":{},"yanked":false}

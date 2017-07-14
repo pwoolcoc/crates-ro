@@ -10,7 +10,7 @@ use errors::*;
 
 const CRATES_IO_URL: &'static str = "https://crates.io";
 
-#[derive(Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Version {
     #[serde(rename = "crate")]
     pub crate_: String,
@@ -25,7 +25,7 @@ pub struct Version {
     pub yanked: bool,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Keyword {
     pub crates_cnt: i32,
     pub created_at: String,
@@ -33,7 +33,7 @@ pub struct Keyword {
     pub keyword: String,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Category {
     pub category: String,
     pub crates_cnt: i32,
@@ -43,20 +43,20 @@ pub struct Category {
     slug: String,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Badge {
     pub attributes: Attrs,
     pub badge_type: String,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Attrs {
     pub branch: Option<String>,
     pub repository: String,
     pub service: Option<String>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct CrateDetail {
     pub badges: Vec<Badge>,
     pub categories: Option<Vec<String>>,
@@ -77,7 +77,7 @@ pub struct CrateDetail {
     pub versions: Vec<i32>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug)]
 pub struct Crate {
     pub categories: Option<Vec<Category>>,
     #[serde(rename = "crate")]
@@ -87,12 +87,6 @@ pub struct Crate {
 }
 
 impl Crate {
-    pub fn raw(name: &str) {
-        let mut r = reqwest::get(&format!("{}/api/v1/crates/{}", CRATES_IO_URL, name)).unwrap();
-        let mut body = String::new();
-        r.read_to_string(&mut body);
-        println!("body: {}", body);
-    }
     pub fn get(name: &str) -> Result<Crate> {
         let mut r = reqwest::get(&format!("{}/api/v1/crates/{}", CRATES_IO_URL, name))?;
         if r.status().is_success() {

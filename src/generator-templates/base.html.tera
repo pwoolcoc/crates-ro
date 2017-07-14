@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+  <title>crates-no: {% block title %}{% endblock title %}</title>
+  <link href="/assets/style.css" rel="stylesheet">
+  </head>
+  <body class="main">
+    <header>
+      <h1>crates-no</h1>
+      <form action="/search" method="get"><input name="q" id="q"><input type="submit" value="Go"></form>
+    </header>
+    <section>
+  {% block content %} {% endblock content %}
+    </section>
+  </body>
+</html>

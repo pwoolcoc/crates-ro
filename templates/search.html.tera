@@ -1,0 +1,10 @@
+{% extends "base" %}
+{% block title %}Search Results{% endblock title %}
+{% block content %}
+<h2>Search Results</h2>
+<ul>
+{% for result in results %}
+<li><a href="/crates/{{ result.name }}">{{ result.name }} ({{ result.version }})</a><br>{{ result.description }}</li>
+{% endfor %}
+</ul>
+{% endblock content %}

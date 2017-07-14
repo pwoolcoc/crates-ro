@@ -1,0 +1,26 @@
+{% extends "base.html.tera" %}
+{% block title %}{{ name }}{% endblock title %}
+{% block content %}
+{{ name }} - {{ max_version }}<br>
+{{ description }}<br>
+{% if documentation %}
+<a href="{{ documentation }}">Documentation</a>
+{% endif %}
+
+{% if repository or homepage %}
+{% if documentation %}
+&nbsp;-&nbsp;
+{% endif %}
+{% endif %}
+
+{% if repository %}
+<a href="{{ repository }}">Repository</a>
+{% endif %}
+
+{% if repository and homepage %}
+&nbsp;-&nbsp;
+{% endif %}
+{% if homepage %}
+<a href="{{ homepage }}">Homepage</a>
+{% endif %}
+{% endblock content %}

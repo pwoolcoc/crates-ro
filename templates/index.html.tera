@@ -1,0 +1,34 @@
+{% extends "base" %}
+{% block title %}No JS required!{% endblock title %}
+{% block content %}
+<h2>crates-no</h2>
+<h3>All crates</h3>
+<ul>
+  <li><a href="/crates?letter=a">A</a></li>
+  <li><a href="/crates?letter=b">B</a></li>
+  <li><a href="/crates?letter=c">C</a></li>
+  <li><a href="/crates?letter=d">D</a></li>
+  <li><a href="/crates?letter=e">E</a></li>
+  <li><a href="/crates?letter=f">F</a></li>
+  <li><a href="/crates?letter=g">G</a></li>
+  <li><a href="/crates?letter=h">H</a></li>
+  <li><a href="/crates?letter=i">I</a></li>
+  <li><a href="/crates?letter=j">J</a></li>
+  <li><a href="/crates?letter=k">K</a></li>
+  <li><a href="/crates?letter=l">L</a></li>
+  <li><a href="/crates?letter=m">M</a></li>
+  <li><a href="/crates?letter=n">N</a></li>
+  <li><a href="/crates?letter=o">O</a></li>
+  <li><a href="/crates?letter=p">P</a></li>
+  <li><a href="/crates?letter=q">Q</a></li>
+  <li><a href="/crates?letter=r">R</a></li>
+  <li><a href="/crates?letter=s">S</a></li>
+  <li><a href="/crates?letter=t">T</a></li>
+  <li><a href="/crates?letter=u">U</a></li>
+  <li><a href="/crates?letter=v">V</a></li>
+  <li><a href="/crates?letter=w">W</a></li>
+  <li><a href="/crates?letter=x">X</a></li>
+  <li><a href="/crates?letter=y">Y</a></li>
+  <li><a href="/crates?letter=z">Z</a></li>
+</ul>
+{% endblock content %}

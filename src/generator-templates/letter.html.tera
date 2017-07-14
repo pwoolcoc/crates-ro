@@ -1,0 +1,9 @@
+{% extends "base.html.tera" %}
+{% block title %}{% endblock title %}
+{% block content %}
+<ul>
+{% for pair in names %}
+<li><a href="/crates/{{ pair.name }}">{{ pair.name }} ({{ pair.version }})</a></li>
+{% endfor %}
+</ul>
+{% endblock content %}

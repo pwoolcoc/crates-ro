@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+  <title>crates-no: {% block title %}{% endblock title %}</title>
+  {% block head %}
+  <link href="/assets/normalize.css" rel="stylesheet">
+  <link href="/assets/style.css" rel="stylesheet">
+  {% endblock head %}
+  </head>
+  <body class="main">
+    <header>
+      <h1><a href="/">crates-no</a></h1>
+      <form action="/search" method="get"><input name="q" id="q"><input type="submit" value="Go"></form>
+    </header>
+    <section>
+  {% block content %} {% endblock content %}
+    </section>
+  </body>
+</html>

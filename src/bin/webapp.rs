@@ -26,7 +26,6 @@ use crates_no::index::Indexer;
 pub struct Config {
     pub indiv_crate_dir: PathBuf,
     pub letters_dir: PathBuf,
-    pub static_dir: PathBuf,
 }
 
 #[get("/")]
@@ -75,11 +74,11 @@ struct SearchResult {
 }
 
 impl From<(String, String, Option<String>)> for SearchResult {
-    fn from(pair: (String, String, Option<String>)) -> SearchResult {
+    fn from(result: (String, String, Option<String>)) -> SearchResult {
         SearchResult {
-            name: pair.0,
-            version: pair.1,
-            description: pair.2,
+            name: result.0,
+            version: result.1,
+            description: result.2,
         }
     }
 }
@@ -112,11 +111,9 @@ fn main() {
     let index_dir = matches.value_of("INDEX").unwrap();
     let indexer = Indexer::searcher(Path::new(index_dir)).expect("Could not get indexer");
     let pages_dir = matches.value_of("pages-dir").unwrap_or("./pages");
-    let static_dir = matches.value_of("static-dir").unwrap_or("./static");
     let config = Config {
         indiv_crate_dir: Path::new(&pages_dir).join("crates").into(),
         letters_dir: Path::new(&pages_dir).join("letters").into(),
-        static_dir: Path::new(static_dir).into(),
     };
     rocket::ignite()
            .manage(Arc::new(Mutex::new(indexer)))

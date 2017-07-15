@@ -14,3 +14,10 @@
 {"name":"wasmparser","vers":"0.5.1","deps":[],"cksum":"c6220193021334a5a1c6bedddf6a990b1e0b0872fec8f4f0183ebdbc0253053b","features":{},"yanked":false}
 {"name":"wasmparser","vers":"0.5.2","deps":[],"cksum":"5cf2f1d0daba34d6b8864ab2eae1377a689e7db86a682c7e0b6695d61e61c595","features":{},"yanked":false}
 {"name":"wasmparser","vers":"0.5.3","deps":[],"cksum":"f675befee81619b3cd0ceec78f50e05541ff4fdd7da7f184fb11ea6577c8caa0","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.5.4","deps":[],"cksum":"c94b29ed2587edd2bdb1d29b340a56e2490d65479d53bafddab0dad479ddfca0","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.5.5","deps":[],"cksum":"f98e14c6c4d1f9b37b6ea706fa3a2383b67bd0e4c4e39046e86b5d5666e31ec9","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.6.0","deps":[],"cksum":"484726662446204073e9fc87f3cf15a483aa3bdffcb5a1ede7b5db79b14c3f3f","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.6.1","deps":[],"cksum":"3b99555fb7f034b8aa58d18809bb3eaf4252d570bfd6c62b099e7858c9c9c398","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.7.0","deps":[],"cksum":"28d668d1e88b0e652769d25015d68879ab6fe0548d16fc80a6bd0675be567457","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.7.1","deps":[],"cksum":"742bfa803ab3f0c3326f93decb257b3770c08191420c36a489e4dba5e060ad4c","features":{},"yanked":false}
+{"name":"wasmparser","vers":"0.7.2","deps":[],"cksum":"0a02ccacf3e26a770a7a5995d87bad8d2f8eb33455d0fd5d5819f12a220561a8","features":{},"yanked":false}
